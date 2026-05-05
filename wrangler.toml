@@ -1,0 +1,8 @@
+name = "pulse"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[[kv_namespaces]]
+binding = "__NEXT_ON_PAGES__KV_SUSPENSE_CACHE"
+id = "cf8ff0baa91f4115a19dcc53ee4b1a2c"

@@ -1,0 +1,15 @@
+[package]
+name = "Pulse"
+version = "0.1.0"
+authors = []
+
+[addresses]
+pulse = "0xd0d82644f78051de9ee9c33916ce9c19660f80fc5b092cd96aa15e6ecdf25e0f"
+
+[dev-addresses]
+pulse = "0xCAFE"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"

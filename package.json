@@ -1,0 +1,39 @@
+{
+  "name": "pulse",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.2.18",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@aptos-labs/ts-sdk": "^1.33.1",
+    "@aptos-labs/wallet-adapter-react": "^3.7.7",
+    "petra-plugin-wallet-adapter": "^0.4.5",
+    "jose": "^5.9.6",
+    "isomorphic-dompurify": "^2.18.0",
+    "file-type": "^19.6.0",
+    "@upstash/ratelimit": "^2.0.4",
+    "@upstash/redis": "^1.34.3",
+    "zustand": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3"
+  },
+  "comments": {
+    "shelby": "@shelby-protocol/sdk and @shelby-protocol/media-prepare are gated. Add them to dependencies once you have early-access from developers.shelby.xyz. lib/shelby.ts already imports them — install fails silently until then.",
+    "petra": "petra-plugin-wallet-adapter is the correct integration. The original spec listed @petra-wallet/sdk which is not a published package."
+  }
+}

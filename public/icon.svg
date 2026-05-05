@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#0A0A0A"/>
+  <text x="8" y="50" font-family="Playfair Display, Georgia, 'Times New Roman', serif" font-weight="900" font-size="48" fill="#F5F5F5" letter-spacing="-2">PS</text>
+  <circle cx="56" cy="14" r="5" fill="#C8FF00"/>
+</svg>
